@@ -1,18 +1,13 @@
 #controles1 {     /* el id de un div*/
 	background-color: #FF0000;
 }
-#nombreFilas{
-	color: yellow;
-}
+
 .container {      /* el id de una clase*/
 
 }
 
 p{	/* estilo de los tipos p*/
-
-color: white;
-
-
+	color: white;
 }
 
 #tabla{
@@ -21,5 +16,5 @@ color: white;
 }
 
 #primos {
-	border-color: Document.getId("clrColor").value;
+	border-color: document.getElementById("clrColor").value;
 }
