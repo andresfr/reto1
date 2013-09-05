@@ -3,27 +3,20 @@
     <head>
         <meta charset="utf-8" />
         <title>Reto 1</title>
-		<link rel="stylesheet" type="text/css" href="estilosReto1.css"/>
     </head>
     <body> 
 		<div class=container>
 			<div id= "controles1">
-				<p id="nombreFilas"> Filas:<input type="text" name="Filas" /></p>
-				<p>Columnas:<input type="text" name="Columnas"/></p>
+				<p id="nombreFilas"> Filas:<input type="text" id="filas" name="Filas"/></p>
+				<p>Columnas:<input type="text" id="columnas" name="Columnas"/></p>
+				 
 			</div>
 			<div id= "controles2">
 				<p><input type="color" id="clrColor" value="#ff006f"></p>
-				<button name="button1" onclick="alertar()" >Click Me!</button>
+				<button name="button1" onclick="generarTabla()" >Generar Tabla</button> 
 			</div>
 			<div id="tabla">
-				<table>
-					<tr>
-						hola
-					</tr>
-					<td>
-						hellow
-					</td>
-				</table>
+				
 			</div>
 		</div>		
 		<script src="funcionalidades.js" type "text/Javascript" ></script>

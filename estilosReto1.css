@@ -19,3 +19,7 @@ color: white;
 	background-color: #FFFF00;
 	visibility: visibility;
 }
+
+#primos {
+	border-color: Document.getId("clrColor").value;
+}
