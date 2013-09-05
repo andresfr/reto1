@@ -27,6 +27,7 @@ function generarTabla() {
 	}
 	codigo = codigo+ "</table>";
 	alert(numerofilas + " " + numerocolumnas+" "+color + " |||||  "+ codigo);
-	$("#tablaprincipal").append( codigo );
+	//$("#tablaprincipal").append( codigo );
+	document.write(codigo);
 	//pasar codigo al html
 }
