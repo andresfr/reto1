@@ -1,0 +1,21 @@
+#controles1 {     /* el id de un div*/
+	background-color: #FF0000;
+}
+#nombreFilas{
+	color: yellow;
+}
+.container {      /* el id de una clase*/
+
+}
+
+p{	/* estilo de los tipos p*/
+
+color: white;
+
+
+}
+
+#tabla{
+	background-color: #FFFF00;
+	visibility: visibility;
+}
